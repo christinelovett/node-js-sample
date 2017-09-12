@@ -7,7 +7,6 @@ services:
             replicas: 2
         healthcheck:
             interval: 10s
-            timeout: 5s
             retries: 3
         ports:
             - 5000:5000
